@@ -1,0 +1,509 @@
+2025-06-23 12:08:38 — 2) Получение данных из $_REQUEST
+2025-06-23 12:08:38 —    Из запроса получили только ID сделки: 11316
+2025-06-23 12:08:38 — 2.5) Запрос crm.deal.productrows.get для сделки 11316
+2025-06-23 12:08:38 —    Всего товаров в сделке: 0
+2025-06-23 12:08:38 — 3) Запрос crm.deal.get для сделки 11316 (все UF_*)
+2025-06-23 12:08:38 —    Сделка 11316 не тестовая, выходим
+2025-06-23 13:18:41 — 2) Получение данных из $_REQUEST
+2025-06-23 13:18:41 —    Из запроса получили только ID сделки: 11411
+2025-06-23 13:18:41 — 2.5) Запрос crm.deal.productrows.get для сделки 11411
+2025-06-23 13:18:41 —    Всего товаров в сделке: 0
+2025-06-23 13:18:41 — 3) Запрос crm.deal.get для сделки 11411 (все UF_*)
+2025-06-23 13:18:41 —    Сделка 11411 не тестовая, выходим
+2025-06-23 13:56:04 — 2) Получение данных из $_REQUEST
+2025-06-23 13:56:04 —    Из запроса получили только ID сделки: 11229
+2025-06-23 13:56:04 — 2.5) Запрос crm.deal.productrows.get для сделки 11229
+2025-06-23 13:56:04 —    Всего товаров в сделке: 2
+2025-06-23 13:56:04 —    Оффер ID=48
+2025-06-23 13:56:04 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [bundle] => N
+                    [code] => protokol_biotestirovaniya_dlya_otkhodov_5_kl_opasnosti
+                    [createdBy] => 1
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2023-11-21T13:51:03+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => html
+                    [iblockId] => 24
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 48
+                    [measure] => 9
+                    [modifiedBy] => 455
+                    [name] => Протокол биотестирования для отходов 5 кл. опасности
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [property121] => 
+                    [sort] => 500
+                    [timestampX] => 2023-12-29T14:20:53+03:00
+                    [type] => 7
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [xmlId] => 48
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750686964.9066
+            [finish] => 1750686964.9558
+            [duration] => 0.049169778823853
+            [processing] => 0.018528938293457
+            [date_start] => 2025-06-23T16:56:04+03:00
+            [date_finish] => 2025-06-23T16:56:04+03:00
+        )
+
+)
+
+2025-06-23 13:56:04 —       Нет parentId для оффера 48, пропускаем
+2025-06-23 13:56:04 —    Оффер ID=47
+2025-06-23 13:56:05 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [bundle] => N
+                    [code] => pasport_otkhoda_1_4_kl_opasnosti
+                    [createdBy] => 1
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2023-11-21T13:49:42+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => html
+                    [iblockId] => 24
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 47
+                    [measure] => 9
+                    [modifiedBy] => 1
+                    [name] => Паспорт отхода 1-4 кл. опасности
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [property121] => 
+                    [sort] => 500
+                    [timestampX] => 2023-11-21T13:49:42+03:00
+                    [type] => 7
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [xmlId] => 47
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750686965.0626
+            [finish] => 1750686965.1108
+            [duration] => 0.048201084136963
+            [processing] => 0.017354011535645
+            [date_start] => 2025-06-23T16:56:05+03:00
+            [date_finish] => 2025-06-23T16:56:05+03:00
+        )
+
+)
+
+2025-06-23 13:56:05 —       Нет parentId для оффера 47, пропускаем
+2025-06-23 13:56:05 — 3) Запрос crm.deal.get для сделки 11229 (все UF_*)
+2025-06-23 13:56:05 —    Сделка 11229 не тестовая, выходим
+2025-06-23 16:49:01 — 2) Получение данных из $_REQUEST
+2025-06-23 16:49:01 —    Из запроса получили только ID сделки: 11406
+2025-06-23 16:49:01 — 2.5) Запрос crm.deal.productrows.get для сделки 11406
+2025-06-23 16:49:01 —    Всего товаров в сделке: 2
+2025-06-23 16:49:01 —    Оффер ID=65
+2025-06-23 16:49:01 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [bundle] => N
+                    [code] => ekologicheskoe_soprovozhdenie
+                    [createdBy] => 1
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2023-11-22T13:54:07+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => html
+                    [iblockId] => 24
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 65
+                    [measure] => 9
+                    [modifiedBy] => 1
+                    [name] => Экологическое сопровождение
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [property121] => 
+                    [sort] => 500
+                    [timestampX] => 2023-11-22T13:54:07+03:00
+                    [type] => 7
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [xmlId] => 65
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750697341.5599
+            [finish] => 1750697341.6493
+            [duration] => 0.089432001113892
+            [processing] => 0.024683952331543
+            [date_start] => 2025-06-23T19:49:01+03:00
+            [date_finish] => 2025-06-23T19:49:01+03:00
+        )
+
+)
+
+2025-06-23 16:49:01 —       Нет parentId для оффера 65, пропускаем
+2025-06-23 16:49:01 —    Оффер ID=78
+2025-06-23 16:49:01 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [barcodeMulti] => N
+                    [bundle] => N
+                    [canBuyZero] => Y
+                    [code] => 
+                    [createdBy] => 468
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2025-06-15T14:51:42+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => text
+                    [height] => 
+                    [iblockId] => 27
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 78
+                    [length] => 
+                    [measure] => 9
+                    [modifiedBy] => 468
+                    [name] => Журнал учета движения отходов (январь)
+                    [parentId] => Array
+                        (
+                            [value] => 77
+                            [valueId] => 156
+                        )
+
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [purchasingCurrency] => 
+                    [purchasingPrice] => 
+                    [quantity] => 
+                    [quantityReserved] => 
+                    [quantityTrace] => N
+                    [recurSchemeLength] => 
+                    [recurSchemeType] => D
+                    [sort] => 500
+                    [subscribe] => Y
+                    [timestampX] => 2025-06-15T14:51:42+03:00
+                    [trialPriceId] => 
+                    [type] => 4
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [weight] => 
+                    [width] => 
+                    [withoutOrder] => N
+                    [xmlId] => 78
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750697341.8063
+            [finish] => 1750697341.8605
+            [duration] => 0.05416202545166
+            [processing] => 0.015412092208862
+            [date_start] => 2025-06-23T19:49:01+03:00
+            [date_finish] => 2025-06-23T19:49:01+03:00
+        )
+
+)
+
+2025-06-23 16:49:01 —       Основной товар ID=77
+2025-06-23 16:49:02 —       catalog.product.list (base): Array
+(
+    [result] => Array
+        (
+            [products] => Array
+                (
+                    [0] => Array
+                        (
+                            [iblockId] => 24
+                            [iblockSectionId] => 37
+                            [id] => 77
+                        )
+
+                )
+
+        )
+
+    [total] => 1
+    [time] => Array
+        (
+            [start] => 1750697341.9657
+            [finish] => 1750697342.0282
+            [duration] => 0.062478065490723
+            [processing] => 0.018071889877319
+            [date_start] => 2025-06-23T19:49:01+03:00
+            [date_finish] => 2025-06-23T19:49:02+03:00
+        )
+
+)
+
+2025-06-23 16:49:02 —       Раздел основного товара: 37
+2025-06-23 16:49:02 — 3) Запрос crm.deal.get для сделки 11406 (все UF_*)
+2025-06-23 16:49:02 —    В ответе STAGE_ID = '8696361'
+2025-06-23 16:49:02 —    Пропуск: стадия '8696361' ≠ '8740560'
+2025-06-23 16:52:00 — 2) Получение данных из $_REQUEST
+2025-06-23 16:52:00 —    Из запроса получили только ID сделки: 11406
+2025-06-23 16:52:00 — 2.5) Запрос crm.deal.productrows.get для сделки 11406
+2025-06-23 16:52:00 —    Всего товаров в сделке: 2
+2025-06-23 16:52:00 —    Оффер ID=65
+2025-06-23 16:52:00 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [bundle] => N
+                    [code] => ekologicheskoe_soprovozhdenie
+                    [createdBy] => 1
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2023-11-22T13:54:07+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => html
+                    [iblockId] => 24
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 65
+                    [measure] => 9
+                    [modifiedBy] => 1
+                    [name] => Экологическое сопровождение
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [property121] => 
+                    [sort] => 500
+                    [timestampX] => 2023-11-22T13:54:07+03:00
+                    [type] => 7
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [xmlId] => 65
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750697520.802
+            [finish] => 1750697520.8479
+            [duration] => 0.045825004577637
+            [processing] => 0.016779899597168
+            [date_start] => 2025-06-23T19:52:00+03:00
+            [date_finish] => 2025-06-23T19:52:00+03:00
+        )
+
+)
+
+2025-06-23 16:52:00 —       Нет parentId для оффера 65, пропускаем
+2025-06-23 16:52:00 —    Оффер ID=78
+2025-06-23 16:52:01 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [barcodeMulti] => N
+                    [bundle] => N
+                    [canBuyZero] => Y
+                    [code] => 
+                    [createdBy] => 468
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2025-06-15T14:51:42+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => text
+                    [height] => 
+                    [iblockId] => 27
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 78
+                    [length] => 
+                    [measure] => 9
+                    [modifiedBy] => 468
+                    [name] => Журнал учета движения отходов (январь)
+                    [parentId] => Array
+                        (
+                            [value] => 77
+                            [valueId] => 156
+                        )
+
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [purchasingCurrency] => 
+                    [purchasingPrice] => 
+                    [quantity] => 
+                    [quantityReserved] => 
+                    [quantityTrace] => N
+                    [recurSchemeLength] => 
+                    [recurSchemeType] => D
+                    [sort] => 500
+                    [subscribe] => Y
+                    [timestampX] => 2025-06-15T14:51:42+03:00
+                    [trialPriceId] => 
+                    [type] => 4
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [weight] => 
+                    [width] => 
+                    [withoutOrder] => N
+                    [xmlId] => 78
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750697520.9479
+            [finish] => 1750697521.0024
+            [duration] => 0.054466009140015
+            [processing] => 0.026575088500977
+            [date_start] => 2025-06-23T19:52:00+03:00
+            [date_finish] => 2025-06-23T19:52:01+03:00
+        )
+
+)
+
+2025-06-23 16:52:01 —       Основной товар ID=77
+2025-06-23 16:52:01 —       catalog.product.list (base): Array
+(
+    [result] => Array
+        (
+            [products] => Array
+                (
+                    [0] => Array
+                        (
+                            [iblockId] => 24
+                            [iblockSectionId] => 37
+                            [id] => 77
+                        )
+
+                )
+
+        )
+
+    [total] => 1
+    [time] => Array
+        (
+            [start] => 1750697521.1486
+            [finish] => 1750697521.2368
+            [duration] => 0.088223934173584
+            [processing] => 0.030050992965698
+            [date_start] => 2025-06-23T19:52:01+03:00
+            [date_finish] => 2025-06-23T19:52:01+03:00
+        )
+
+)
+
+2025-06-23 16:52:01 —       Раздел основного товара: 37
+2025-06-23 16:52:01 — 3) Запрос crm.deal.get для сделки 11406 (все UF_*)
+2025-06-23 16:52:01 —    В ответе STAGE_ID = '8740560'
+2025-06-23 16:52:01 —    Стадия совпадает, продолжаем…
+2025-06-23 16:52:01 —    ЭкоСопровождение уже привязано (PARENT_ID_1040=131), выходим.
+2025-06-23 16:52:23 — 2) Получение данных из $_REQUEST
+2025-06-23 16:52:23 —    Из запроса получили только ID сделки: 11406
+2025-06-23 16:52:23 — 2.5) Запрос crm.deal.productrows.get для сделки 11406
+2025-06-23 16:52:23 —    Всего товаров в сделке: 1
+2025-06-23 16:52:23 —    Оффер ID=65
+2025-06-23 16:52:23 —       catalog.product.get (offer): Array
+(
+    [result] => Array
+        (
+            [product] => Array
+                (
+                    [active] => Y
+                    [available] => Y
+                    [bundle] => N
+                    [code] => ekologicheskoe_soprovozhdenie
+                    [createdBy] => 1
+                    [dateActiveFrom] => 
+                    [dateActiveTo] => 
+                    [dateCreate] => 2023-11-22T13:54:07+03:00
+                    [detailPicture] => 
+                    [detailText] => 
+                    [detailTextType] => html
+                    [iblockId] => 24
+                    [iblockSection] => 
+                    [iblockSectionId] => 
+                    [id] => 65
+                    [measure] => 9
+                    [modifiedBy] => 1
+                    [name] => Экологическое сопровождение
+                    [previewPicture] => 
+                    [previewText] => 
+                    [previewTextType] => text
+                    [property121] => 
+                    [sort] => 500
+                    [timestampX] => 2023-11-22T13:54:07+03:00
+                    [type] => 7
+                    [vatId] => 
+                    [vatIncluded] => N
+                    [xmlId] => 65
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1750697543.6255
+            [finish] => 1750697543.6622
+            [duration] => 0.036710023880005
+            [processing] => 0.015701055526733
+            [date_start] => 2025-06-23T19:52:23+03:00
+            [date_finish] => 2025-06-23T19:52:23+03:00
+        )
+
+)
+
+2025-06-23 16:52:23 —       Нет parentId для оффера 65, пропускаем
+2025-06-23 16:52:23 — 3) Запрос crm.deal.get для сделки 11406 (все UF_*)
+2025-06-23 16:52:23 —    В ответе STAGE_ID = '8740560'
+2025-06-23 16:52:23 —    Стадия совпадает, продолжаем…
+2025-06-23 16:52:23 —    ЭкоСопровождение уже привязано (PARENT_ID_1040=131), выходим.

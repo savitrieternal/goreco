@@ -1,0 +1,60 @@
+2025-06-16 14:19:25 — 2) Получение данных из $_REQUEST
+2025-06-16 14:19:25 —    $_REQUEST dump: Array
+(
+    [event] => ONCRMPRODUCTUPDATE
+    [event_handler_id] => 64
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 168
+                )
+
+        )
+
+    [ts] => 1750083565
+    [auth] => Array
+        (
+            [domain] => crm.goreco.ru
+            [client_endpoint] => https://crm.goreco.ru/rest/
+            [server_endpoint] => https://oauth.bitrix.info/rest/
+            [member_id] => 7ecd26f08180cbafa32a72187279dbcf
+            [application_token] => cdfkus5y7gfueyt43m3kumiul5dultkz
+        )
+
+)
+
+2025-06-16 14:19:25 —    Из запроса получили ID товара: 168
+2025-06-16 14:19:25 — 3) Запрос crm.product.get для товара 168
+2025-06-16 14:19:26 —    Успешно получили данные товара:
+2025-06-16 14:19:26 — Array
+(
+    [ID] => 168
+    [NAME] =>   Фактические параметры осуще ствляемого водопользования (1 квартал)
+    [CODE] => fakticheskie_parametry_osushchestvlyaemogo_vodopolzovaniya_1_kvartal
+    [ACTIVE] => Y
+    [PREVIEW_PICTURE] => 
+    [DETAIL_PICTURE] => 
+    [SORT] => 500
+    [XML_ID] => 168
+    [TIMESTAMP_X] => 2025-06-16T17:19:25+03:00
+    [DATE_CREATE] => 2025-06-15T16:28:41+03:00
+    [MODIFIED_BY] => 468
+    [CREATED_BY] => 468
+    [CATALOG_ID] => 24
+    [SECTION_ID] => 42
+    [DESCRIPTION] => 
+    [DESCRIPTION_TYPE] => html
+    [PRICE] => 
+    [CURRENCY_ID] => 
+    [VAT_ID] => 
+    [VAT_INCLUDED] => N
+    [MEASURE] => 
+    [PROPERTY_121] => Array
+        (
+            [valueId] => 246
+            [value] => 31.03
+        )
+
+)
+
