@@ -109,29 +109,37 @@ function addAddressDropdowns(addresses) {
 	if (!table) return;
 
 	var rows = table.querySelectorAll('tbody tr.main-grid-row-body.main-grid-row-edit');
-	rows.forEach(function (row, idx) {
+        rows.forEach(function (row, idx) {
         // 1) колонка «Дата»
-		var existingDate = row.querySelector('.custom-date-cell');
-		if (!existingDate) {
-			var dateCell = row.insertCell(-1);
-			dateCell.className = 'main-grid-cell main-grid-cell-right custom-date-cell';
-			dateCell.setAttribute('data-editable', 'true');
-			dateCell.innerHTML = '\
-			<div class="main-grid-editor-container ui-entity-editor-content-block">\
-			<span class="fields date field-wrap">\
-			<span class="fields date field-item">\
-			<input onclick="BX.calendar({node:this,field:this,bTime:false,bSetFocus:false})" \
-			name="" type="text" tabindex="0" value="">\
-			<i class="fields date icon" onclick="BX.calendar({\
-				node:this.previousElementSibling, \
-				field:this.previousElementSibling, \
-				bTime:false, \
-				bSetFocus:false\
-				})"></i>\
-				</span>\
-				</span>\
-			</div>';
-		}
+                var existingDate = row.querySelector('.custom-date-cell');
+                var dateInput;
+                if (!existingDate) {
+                        var dateCell = row.insertCell(-1);
+                        dateCell.className = 'main-grid-cell main-grid-cell-right custom-date-cell';
+                        dateCell.setAttribute('data-editable', 'true');
+                        dateCell.innerHTML = '\
+                        <div class="main-grid-editor-container ui-entity-editor-content-block">\
+                        <span class="fields date field-wrap">\
+                        <span class="fields date field-item">\
+                        <input onclick="BX.calendar({node:this,field:this,bTime:false,bSetFocus:false})" \
+                        name="" type="text" tabindex="0" value="">\
+                        <i class="fields date icon" onclick="BX.calendar({\
+                                node:this.previousElementSibling, \
+                                field:this.previousElementSibling, \
+                                bTime:false, \
+                                bSetFocus:false\
+                                })"></i>\
+                                </span>\
+                                </span>\
+                        </div>';
+                        dateInput = dateCell.querySelector('input');
+                } else {
+                        dateInput = existingDate.querySelector('input');
+                }
+
+                if (dateInput) {
+                        fillDateFromProduct(row, dateInput);
+                }
 
         // 2) колонка «Адрес объекта»
 		var existingAddr = row.querySelector('.custom-address-cell');
@@ -217,5 +225,28 @@ function saveAddress(rowIndex, addressValue) {
 	}).catch(function (err) {
 		console.error("[SCRIPT] Ошибка saveAddress:", err);
 	});
+}
+
+function fillDateFromProduct(row, input) {
+        var idInput = row.querySelector('input[name$="[PRODUCT_ID]"]');
+        if (!idInput || !idInput.value) return;
+        var productId = parseInt(idInput.value);
+        if (!productId) return;
+
+        BX.ajax({
+                url: '/local/ajax/get_product_date.php',
+                method: 'POST',
+                dataType: 'json',
+                data: { productId: productId },
+                onsuccess: function(res) {
+                        if (!res || !res.date) return;
+                        var parts = res.date.split('.');
+                        if (parts.length < 2) return;
+                        var day = parts[0].padStart(2, '0');
+                        var month = parts[1].padStart(2, '0');
+                        var year = new Date().getFullYear();
+                        input.value = day + '.' + month + '.' + year;
+                }
+        });
 }
 
